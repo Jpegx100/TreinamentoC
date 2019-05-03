@@ -13,6 +13,8 @@ int main(){
     lucro_distribuidor = custo_producao * 0.12;
     imposto = ((custo_producao + lucro_distribuidor) * 0.45)/0.55;
     preco = custo_producao + lucro_distribuidor + imposto;
+    printf("LUCRO DO DISTRIBUIDOR: %f\n", lucro_distribuidor);
+    printf("IMPOSTO: %f\n", imposto);
     printf("PREÇO DO CARRO: R$ %.2f", preco);
     return 0;
 }
